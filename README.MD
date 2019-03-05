@@ -1,25 +1,25 @@
 # Rocket League Custom Quickchat
 
-This is a custom quick chat script for Rocket League which allows for targeted custom quick chats. <br><br>
-It uses auto hotkey to insert custom chat messages while also providing more useful visual feedback.
+This is a quickchat script for Rocket League which allows for custom quickchats. <br><br>
+It uses AutoHotKey to insert custom chat messages while also providing more useful visual feedback.
 
 ## Features
 
-- 2 custom quick chat sets
+- 2 sets of custom quickchats
 - Displays menu in game (where the normal menu is located)
-- Menu color is based on message audience
+- Menu color is based on message audience (all or team)
 - Displays an alert when changing sets (also color coded)
-- Custom chat bank for pre/post game
+- Custom chat bank for during the game/post game
 - Macro menu (coming soon - Change video modes)
 
-## Install
+## Installation
 
-- Map your controller to the below keybinds, more on this below
+- Map your controller to the below keybinds
 - Download the repo and extract the script to where you please
-- Launch before/during playing Rocket League.
+- Launch the script before/while playing Rocket League.
 - The settings.ini file must be in the same folder as the script
 
-## Configure
+## Configuration 
 
 - Both sets of messages can be configured by changing the settings.ini file. It opens in any editor <br>
 - Your message must be in the quotes e.g. "IN_HERE" <br>
@@ -28,18 +28,18 @@ It uses auto hotkey to insert custom chat messages while also providing more use
 
 ## Usage
 
-This works by overriding the default quick chat system. This is achieved by re-mapping the dpad buttons (up, down, left, right) to the below.<br>
-You also will need a way to change between the message set and optionally the post/pre-game menu, talk to the team only and macro menu buttons<br>
+This works by overriding the default quick chat system. This is achieved by re-mapping the dpad buttons (up, down, left, right) to the mappings shown below.<br>
+You also need a way to change between the message set and the post/pre-game menu (optional), team chat only and macro menu buttons.<br>
 You can do this by remapping a few of your controllers buttons as explained below.
 
 Steam allows you to remap most popular controllers to output what you like and also gives us activators.<br>
-Activators allow you to map additional hotkeys to when an input is activated in a certain way. For example a double press or a long press <br>
+Activators allow you to map additional hotkeys to when an input is activated in a certain way. For example a double press or a long press. <br>
 This is really handy as it allows us to add many layers of interaction to pretty much any pad. <br>
 It saves a lot of time coding and comes with other benefits such as haptic feedback if your controller supports it.<br><br>
 
 [How to remap buttons through steam](https://www.howtogeek.com/234427/how-to-remap-buttons-on-your-steam-controller/)<br>
 
-I currently use a steam controller which as 2 paddles on the back which I use for all my message options<br>
+I currently use a steam controller which as 2 paddles on the back which I use for all my message options.<br>
 
 - A single press of the left paddle switches from normal to custom chat modes - [toggle mode] below
 - A single press of the right paddle means my next quick chat will be sent to the team only - [team only] below
